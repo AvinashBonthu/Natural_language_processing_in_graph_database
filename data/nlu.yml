@@ -66,7 +66,7 @@ nlu:
     - [Avengers]{"entity":"movie"} is [directed by]{"entity":"edge", "value":"directed"} 
     - [director of]{"entity":"edge", "value":"directed"} [Avengers]{"entity":"movie"}
     - who is the [director of]{"entity":"edge", "value":"directed"} [The Notebook]{"entity":"movie"}
-    - who [acted in]{"entity":"edge", "value":"acted_in"} the movie [Pirates of Caribbean]{"entity":"movie"}
+    - who [acted in]{"entity":"edge", "value":"acted_in"} the movie [Pirates of Caribbean]{"entity":"movie"}.
 
 
 - intent: mood_great
