@@ -1,0 +1,14 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: required_data
+    entities:
+    - node: "Robert Downey Jr."
+    - edge: "acted_in"
+  - action: utter_happy
+

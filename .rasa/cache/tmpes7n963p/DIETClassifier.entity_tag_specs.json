@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-edge",
+      "2": "I-edge",
+      "3": "L-edge",
+      "4": "U-edge",
+      "5": "B-node",
+      "6": "I-node",
+      "7": "L-node",
+      "8": "U-node",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-edge": 1,
+      "I-edge": 2,
+      "L-edge": 3,
+      "U-edge": 4,
+      "B-node": 5,
+      "I-node": 6,
+      "L-node": 7,
+      "U-node": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]
