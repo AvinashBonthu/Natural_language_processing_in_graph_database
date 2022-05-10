@@ -51,19 +51,22 @@ nlu:
 
 - intent: required_data
   examples: | 
-    - movies [Robert Downy Jr.]{"entity": "Person"} [acted in]{"entity": "edge", "value":"acted_in"}
     - movies [Rowan Atkinson]{"entity": "Person"} [acted in]{"entity": "edge", "value":"acted_in"}
-    - movies [Tom Holland]{"entity": "Person"} [acted in]{"entity": "edge", "value":"acted_in"}
-    - movies [Zendaya]{"entity": "Person"} [acted in]{"entity": "edge", "value": "acted_in"}
+    - in which movie did [Rowan Atkinson]{"entity":"Person"} [act]{"entity": "edge", "value":"acted_in"}
     - movies [directed by]{"entity": "edge", "value":"directed"} [Christopher Nolan]{"entity": "Person"}.
-    - [Angela hope]{"entity": "Person"} is [followed by]{"entity": "edge", "value":"follows"}?
+    - [Angela hope]{"entity": "Person"} is [followed by]{"entity": "edge", "value":"follows"}
+    - [Tatman]{"entity": "Person"} is [followed by]{"entity": "edge", "value":"follows"}
     - movies [produced by]{"entity": "edge", "value":"produced"} [Joel Silver]{"entity": "Person"}.
+    - what are the movies that are [produced by]{"entity": "edge", "value":"produced"} [Joel Silver]{"entity": "Person"}
     - movies [reviewed by]{"entity": "edge", "value":"reviewed"} [James Thompson]{"entity": "Person"}
     - movies [written by]{"entity": "edge", "value":"wrote"} [Andy Wachowski]{"entity": "Person"}
+    - movies [written by]{"entity": "edge", "value":"wrote"} [Tatman]{"entity": "Person"}
     - who [follows]{"entity":"edge", "value":"follows"} [Angela Hope]{"entity":"Person"}
-    - [Avengers]{"entity":"movie"} is [directed by]{"entity":"edge", "value":"directed"} whome
-    - who is the [director of]{"entity":"edge", "value":"directed"} [The Notebook]{"entity":"Movie"}
-    - who [acted in]{"entity":"edge", "value":"acted_in"} the movie [Pirates of Caribbean]{"entity":"Movie"}
+    - who [follows]{"entity":"edge", "value": "follows"} [Tatman]{"entity":"Person"}
+    - [Avengers]{"entity":"movie"} is [directed by]{"entity":"edge", "value":"directed"} 
+    - [director of]{"entity":"edge", "value":"directed"} [Avengers]{"entity":"movie"}
+    - who is the [director of]{"entity":"edge", "value":"directed"} [The Notebook]{"entity":"movie"}
+    - who [acted in]{"entity":"edge", "value":"acted_in"} the movie [Pirates of Caribbean]{"entity":"movie"}
 
 
 - intent: mood_great

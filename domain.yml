@@ -7,15 +7,17 @@ intents:
   - deny
   - required_data:
       use_entities:
-        - node
+        - Person
         - edge
+        - movies
   - mood_great
   - mood_unhappy
   - bot_challenge
 
 entities:
-  - node
+  - Person
   - edge
+  - movie
 
 responses:
   utter_greet:
