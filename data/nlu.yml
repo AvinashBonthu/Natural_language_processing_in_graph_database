@@ -53,7 +53,9 @@ nlu:
   examples: | 
     - movies [Rowan Atkinson]{"entity": "Person"} [acted in]{"entity": "edge", "value":"acted_in"}
     - in which movie did [Rowan Atkinson]{"entity":"Person"} [act]{"entity": "edge", "value":"acted_in"}
+    - movies  [acted in]{"entity": "edge", "value":"acted_in"}
     - movies [directed by]{"entity": "edge", "value":"directed"} [Christopher Nolan]{"entity": "Person"}.
+    - movies [directed by]{"entity": "edge", "value":"directed"} [christopher nolan]{"entity": "Person"}.
     - [Angela hope]{"entity": "Person"} is [followed by]{"entity": "edge", "value":"follows"}
     - [Tatman]{"entity": "Person"} is [followed by]{"entity": "edge", "value":"follows"}
     - movies [produced by]{"entity": "edge", "value":"produced"} [Joel Silver]{"entity": "Person"}.
@@ -66,7 +68,14 @@ nlu:
     - [Avengers]{"entity":"movie"} is [directed by]{"entity":"edge", "value":"directed"} 
     - [director of]{"entity":"edge", "value":"directed"} [Avengers]{"entity":"movie"}
     - who is the [director of]{"entity":"edge", "value":"directed"} [The Notebook]{"entity":"movie"}
+    - who is the [director of]{"entity":"edge", "value":"directed"} [the notebook]{"entity":"movie"}
     - who [acted in]{"entity":"edge", "value":"acted_in"} the movie [Pirates of Caribbean]{"entity":"movie"}.
+    - who [acted in]{"entity":"edge", "value":"acted_in"} the movie [pirates of caribbean]{"entity":"movie"}.
+    - [Tom Holland]{"entity": "Person"}
+    - [tom holland]{"entity": "Person"}
+    - [Cloud Atlas]{"entity": "movie"}
+    - [cloud atlas]{"entity": "movie"}
+
 
 
 - intent: mood_great

@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-Person",
+      "2": "I-Person",
+      "3": "L-Person",
+      "4": "U-Person",
+      "5": "B-edge",
+      "6": "I-edge",
+      "7": "L-edge",
+      "8": "U-edge",
+      "9": "B-movie",
+      "10": "I-movie",
+      "11": "L-movie",
+      "12": "U-movie",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-Person": 1,
+      "I-Person": 2,
+      "L-Person": 3,
+      "U-Person": 4,
+      "B-edge": 5,
+      "I-edge": 6,
+      "L-edge": 7,
+      "U-edge": 8,
+      "B-movie": 9,
+      "I-movie": 10,
+      "L-movie": 11,
+      "U-movie": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]
