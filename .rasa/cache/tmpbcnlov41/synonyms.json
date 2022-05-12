@@ -1,0 +1,14 @@
+{
+  "acted in": "acted_in",
+  "act": "acted_in",
+  "directed by": "directed",
+  "followed by": "follows",
+  "produced by": "produced",
+  "reviewed by": "reviewed",
+  "written by": "wrote",
+  "director of": "directed",
+  "followed": "follows",
+  "producer of": "produced",
+  "writer": "wrote",
+  "reviewer of": "reviewed"
+}

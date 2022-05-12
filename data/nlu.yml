@@ -67,15 +67,31 @@ nlu:
     - who [follows]{"entity":"edge", "value": "follows"} [Tatman]{"entity":"Person"}
     - [Avengers]{"entity":"movie"} is [directed by]{"entity":"edge", "value":"directed"} 
     - [director of]{"entity":"edge", "value":"directed"} [Avengers]{"entity":"movie"}
-    - who is the [director of]{"entity":"edge", "value":"directed"} [The Notebook]{"entity":"movie"}
-    - who is the [director of]{"entity":"edge", "value":"directed"} [the notebook]{"entity":"movie"}
-    - who [acted in]{"entity":"edge", "value":"acted_in"} the movie [Pirates of Caribbean]{"entity":"movie"}.
-    - who [acted in]{"entity":"edge", "value":"acted_in"} the movie [pirates of caribbean]{"entity":"movie"}.
+    - who is the [director of]{"entity":"edge", "value":"directed"} [Notebook]{"entity":"movie"}
+    - who is the [director of]{"entity":"edge", "value":"directed"} [notebook]{"entity":"movie"}
+    - who [acted in]{"entity":"edge", "value":"acted_in"} the movie [Avengers]{"entity":"movie"}.
+    - who [acted in]{"entity":"edge", "value":"acted_in"} the movie [avengers]{"entity":"movie"}.
     - [Tom Holland]{"entity": "Person"}
     - [tom holland]{"entity": "Person"}
     - [Cloud Atlas]{"entity": "movie"}
     - [cloud atlas]{"entity": "movie"}
-
+    - movies of [Rowan Atkinson]{"entity": "Person"}
+    - movies of [rowan atkinson]{"entity": "Preson"}
+    - writer of movie [Avengers]{"entity": "movie"}
+    - writer of movie [avengers]{"entity": "movie"}
+    - actors [followed]{"entity":"edge", "value":"follows"} by Angela Hope
+    - who [produced]{"entity":"edge", "value":"produced"} [avengers]{"entity": "movie"} movie
+    - who [produced]{"entity":"edge", "value":"produced"} [Avengers]{"entity": "movie"} movie
+    - who [produced]{"entity":"edge", "value":"produced"} [Notebook]{"entity": "movie"} movie
+    - who [produced]{"entity":"edge", "value":"produced"} [notebook]{"entity": "movie"} movie
+    - who is the [producer of]{"entity":"edge", "value":"produced"} the movie [Avengers]{"entity": "movie"}
+    - who is the [producer of]{"entity":"edge", "value":"produced"} the movie [avengers]{"entity": "movie"}
+    - who is the [writer]{"entity":"edge", "value":"wrote"} of the movie [Avengers]{"entity": "movie"}
+    - who is the [writer]{"entity":"edge", "value":"wrote"} of the movie [avengers]{"entity": "movie"}
+    - what are the movies [directed]{"entity":"edge", "value":"directed"} by Christopher Nolan and [produced]{"entity":"edge", "value":"produced"} by [Tatman]
+    - who [reviewed]{"entity":"edge", "value":"reviewed"} the movie [Avengers]{"entity": "movie"}
+    - who is the [reviewer of]{"entity":"edge", "value":"reviewed"} the movie [Avengers]{"entity": "movie"}
+    - who [reviewed]{"entity":"edge", "value":"reviewed"} the movie [avengers]{"entity": "movie"}
 
 
 - intent: mood_great
