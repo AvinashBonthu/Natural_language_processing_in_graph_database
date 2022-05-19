@@ -76,10 +76,10 @@ nlu:
     - [Cloud Atlas]{"entity": "movie"}
     - [cloud atlas]{"entity": "movie"}
     - movies of [Rowan Atkinson]{"entity": "Person"}
-    - movies of [rowan atkinson]{"entity": "Preson"}
+    - movies of [rowan atkinson]{"entity": "Person"}
     - writer of movie [Avengers]{"entity": "movie"}
     - writer of movie [avengers]{"entity": "movie"}
-    - actors [followed]{"entity":"edge", "value":"follows"} by Angela Hope
+    - actors [followed]{"entity":"edge", "value":"follows"} by [Angela Hope]{"entity": "Person"}
     - who [produced]{"entity":"edge", "value":"produced"} [avengers]{"entity": "movie"} movie
     - who [produced]{"entity":"edge", "value":"produced"} [Avengers]{"entity": "movie"} movie
     - who [produced]{"entity":"edge", "value":"produced"} [Notebook]{"entity": "movie"} movie
@@ -88,10 +88,13 @@ nlu:
     - who is the [producer of]{"entity":"edge", "value":"produced"} the movie [avengers]{"entity": "movie"}
     - who is the [writer]{"entity":"edge", "value":"wrote"} of the movie [Avengers]{"entity": "movie"}
     - who is the [writer]{"entity":"edge", "value":"wrote"} of the movie [avengers]{"entity": "movie"}
-    - what are the movies [directed]{"entity":"edge", "value":"directed"} by Christopher Nolan and [produced]{"entity":"edge", "value":"produced"} by [Tatman]
+    - what are the movies [directed]{"entity":"edge", "value":"directed"} by Christopher Nolan and [produced]{"entity":"edge", "value":"produced"} by [Tatman]{"entity": "Person"}
     - who [reviewed]{"entity":"edge", "value":"reviewed"} the movie [Avengers]{"entity": "movie"}
     - who is the [reviewer of]{"entity":"edge", "value":"reviewed"} the movie [Avengers]{"entity": "movie"}
     - who [reviewed]{"entity":"edge", "value":"reviewed"} the movie [avengers]{"entity": "movie"}
+
+
+
 
 
 - intent: mood_great
@@ -134,3 +137,70 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- lookup: Name
+  examples: |
+    - Keanu Reeves
+    - Carrie-Anne Moss
+    - Laurence Fishburne
+    - Hugo Weaving
+    - Andy Wachowski
+    - Lana Wachowski
+    - Joel Silver
+    - Emil Eifrem
+    - Charlize Theron
+    - Al Pacino
+    - Taylor Hackford
+    - Tom Cruise
+    - Jack Nicholson
+    - Demi Moore
+    - Kevin Bacon
+    - Kiefer Sutherland
+    - Noah Wyle
+    - Cuba Gooding Jr.
+    - Kevin Pollak
+    - J.T. Walsh
+    - James Marshall
+    - Christopher Guest
+    - Rob Reiner
+    - Aaron Sorkin
+    - Kelly McGillis
+
+- regex: Rating
+  examples: |
+    - \d{2,3}
+- regex: Released
+  examples: |
+    - \d{4}
+- regex: Born
+  examples: |
+    - \d{4}
+  
+
+- lookup: Title
+  examples: |
+    - The Matrix
+    - The Matrix Reloaded
+    - The Matrix Revolutions
+    - The Devil's Advocate
+    - A Few Good Men
+    - Top Gun
+    - Jerry Maguire
+    - Stand By Me
+    - As Good as It Gets
+    - What Dreams May Come
+    - Snow Falling on Cedars
+    - You've Got Mail
+    - Sleepless in Seattle
+    - Joe Versus the Volcano
+    - When Harry Met Sally
+    - That Thing You Do
+    - The Replacements
+    - RescueDawn
+    - The Birdcage
+    - Unforgiven
+    - Johnny Mnemonic
+    - Cloud Atlas
+    - The Da Vinci Code
+    - V for Vendetta
+    - Speed Racer

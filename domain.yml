@@ -9,7 +9,14 @@ intents:
       use_entities:
         - Person
         - edge
-        - movies
+        - movie
+  - properties_entities:
+      use_entities:
+        - Born
+        - Name
+        - Rating
+        - Released
+        - Title
   - mood_great
   - mood_unhappy
   - bot_challenge
@@ -18,6 +25,11 @@ entities:
   - Person
   - edge
   - movie
+  - Born
+  - Name
+  - Rating
+  - Released
+  - Title
 
 responses:
   utter_greet:

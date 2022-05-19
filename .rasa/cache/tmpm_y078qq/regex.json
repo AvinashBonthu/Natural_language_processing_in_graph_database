@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Born",
+    "pattern": "\\d{4}"
+  },
+  {
+    "name": "Rating",
+    "pattern": "\\d{2,3}"
+  },
+  {
+    "name": "Released",
+    "pattern": "\\d{4}"
+  },
+  {
+    "name": "Name",
+    "pattern": "(\\bKeanu\\ Reeves\\b|\\bCarrie\\-Anne\\ Moss\\b|\\bLaurence\\ Fishburne\\b|\\bHugo\\ Weaving\\b|\\bAndy\\ Wachowski\\b|\\bLana\\ Wachowski\\b|\\bJoel\\ Silver\\b|\\bEmil\\ Eifrem\\b|\\bCharlize\\ Theron\\b|\\bAl\\ Pacino\\b|\\bTaylor\\ Hackford\\b|\\bTom\\ Cruise\\b|\\bJack\\ Nicholson\\b|\\bDemi\\ Moore\\b|\\bKevin\\ Bacon\\b|\\bKiefer\\ Sutherland\\b|\\bNoah\\ Wyle\\b|\\bCuba\\ Gooding\\ Jr\\.\\b|\\bKevin\\ Pollak\\b|\\bJ\\.T\\.\\ Walsh\\b|\\bJames\\ Marshall\\b|\\bChristopher\\ Guest\\b|\\bRob\\ Reiner\\b|\\bAaron\\ Sorkin\\b|\\bKelly\\ McGillis\\b)"
+  }
+]
