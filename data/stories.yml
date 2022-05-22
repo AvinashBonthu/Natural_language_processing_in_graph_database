@@ -11,13 +11,5 @@ stories:
     - Person: "Robert Downey Jr."
     - edge: "acted_in"
     - movie: "Spiderman"
-  - intent: properties_entities
-    entities:
-    - Born: "1980" 
-    - Name: "Robert Downey Jr."
-    - Rating: "45"
-    - Released: "1980"
-    - Title: "Spiderman"
-
   - action: utter_happy
 
